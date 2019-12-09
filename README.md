@@ -1,4 +1,4 @@
-# Template CLI file 
+# Python Template CLI file 
 
 ## Where to find some help if issues arise using this template ?
 
