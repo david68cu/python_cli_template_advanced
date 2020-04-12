@@ -38,9 +38,9 @@ and the solutions to the problems we faced is described in [1]
   
 ### References
  
- - [0][David Gutierrez CLI Project Layout](https://github.com/david68cu/python_cli_template_advanced)
- - [1][Solving Import Problems by Creating a correct Python CLI project struture ]( https://github.com/david68cu/python_import_issues_project_structure.git)
- - [2][How to Create Professional Python Code](https://github.com/david68cu/python_professional_code_recomendations)
+ - [0] [David Gutierrez CLI Project Layout](https://github.com/david68cu/python_cli_template_advanced)
+ - [1] [Solving Import Problems by Creating a correct Python CLI project struture ]( https://github.com/david68cu/python_import_issues_project_structure.git)
+ - [2] [How to Create Professional Python Code](https://github.com/david68cu/python_professional_code_recomendations)
     - Python Code Quality: Tools & Best Practices
         - [2.1] [McCabe complexity checker](https://github.com/PyCQA/mccabe)
         - [2.2] [PyFlakes for python logical errors ](https://github.com/PyCQA/pyflakes)
