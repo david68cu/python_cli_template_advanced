@@ -1,6 +1,12 @@
 # Python Advanced Template for CLI projects 
 
+TODO:
+
+
+
 ## We we should use a template we know for our projects
+TODO:
+
 
 ## Where to find some help if issues arise using this template ?
 
@@ -35,6 +41,18 @@ and the solutions to the problems we faced is described in [1]
     -I use bandit frecuently that analyzes security errors [2.3]
     -I use pyflakes for Logical errors that Analyzes programs and detects various errors [2.2]
     -For complexity checker I use McCabe [2.1]
+
+## What is that README.rst and why it is added to this repo
+
+Python project could need a web documentation. Usually we use Sphinx . We are just  noticing where the Sphins 
+Readme.rst file should go in the Python file structure
+
+
+## Continuos Integration
+
+TODO:
+
+
   
 ### References
  
