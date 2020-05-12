@@ -2,15 +2,16 @@
 # This below solve the issue of the code but break the test
 import helpers
 
+
 def get_hmm():
     """Get a thought."""
-    return 'hmmm...'
+    return "hmmm..."
 
 
 def hmm():
     """Contemplation..."""
     if helpers.get_answer():
-    #if get_answer():
+        # if get_answer():
         print(get_hmm())
 
 

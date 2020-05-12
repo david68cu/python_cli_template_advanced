@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-#from .context import hmm
+# from .context import hmm
 from sample.core import hmm
 import unittest
 
@@ -12,5 +12,5 @@ class AdvancedTestSuite(unittest.TestCase):
         self.assertIsNone(hmm())
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     unittest.main()
