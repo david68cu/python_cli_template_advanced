@@ -6,16 +6,19 @@ python cli apps
 
 ## Where to find some help if issues arise using this template ?
 
-This repo was  folked from "David Gutierrez advanced Python cliproject Layout , use it !! repo  "in [0]
+This repo was  folked from "David Gutierrez advanced python cli projects layout. 
+A link to this repo is inthe References below [0]
+
 
 The explanation of each file and their  interaction and how and why we arrive here 
 and the solutions to the problems we faced is described in [1]
 
+Any recomendation is appreciated
 
 ## Running the CLI application
   
-  - Install a pipenv
-  - Make your file structure similar to the following tree:
+  - Install a virtual enviorement
+  - Make your file structure similar to the tree of this app.
 
   - Running the application
       - python sample/core.py (from outside sample dir)
