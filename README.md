@@ -1,11 +1,7 @@
 # Python Advanced Template for CLI projects 
 
-TODO:
-
-
-
-## We we should use a template we know for our projects
-TODO:
+This project was created with the intention of facilitate unique template for development and CI/CD of a complex
+python cli apps 
 
 
 ## Where to find some help if issues arise using this template ?
@@ -48,9 +44,39 @@ Python project could need a web documentation. Usually we use Sphinx . We are ju
 Readme.rst file should go in the Python file structure
 
 
-## Continuos Integration
+## Continuos Integration Continuos Development
 
-TODO:
+For CD/CI we will use GitHub actions 
+Actions are in the .github/workflows/pythonapp.yml
+The default action we have for this projects do the following
+
+- name: python cli advanced application template action
+- works for every push ( not for pulls)
+- operating system: ubuntu-latest 
+- copy our code to github workspace using actions/checkout@v2.1.0
+- install python using actions/setup-python@v2
+- select version 3.8 of python
+- upgrade pip : python -m pip install --upgrade pip
+- install requriements : pip install -r requirements.txt
+- install pycode style lynter
+- use pycodestyle to stop if there is any pycode style errors:
+    pycodestyle . --count --select=E9,F63,F7,F82 --show-source --statistics
+- exit-zero treats all errors as warnings. The GitHub editor is 127 chars wide   
+- pycodestyle . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
+-  install pytest pip install pytest
+-  run your test sutites with pytest  python -m pytest
+
+
+## Other github actions
+
+If your project uses for example conda because it is a ML project, we can use any other actions from my 
+repo [3]
+
+
+
+### Lis of Projects created with this template 
+
+- Machine Learning Classifier 
 
 
   
@@ -64,4 +90,5 @@ TODO:
         - [2.2] [PyFlakes for python logical errors ](https://github.com/PyCQA/pyflakes)
         - [2.3] [Python Bandit static code security ](https://github.com/PyCQA/bandit)
         - [2.4] [Black the uncompromised formatter](https://github.com/ambv/black)
+ - [3] [GitHub actions and cheat sheet ](https://github.com/david68cu/github_cheat_sheet)
  
