@@ -75,7 +75,9 @@ The default action we have for this projects do the following
 If your project uses for example conda because it is a ML project, we can use any other actions from my 
 repo [3]
 
+## Tests
 
+The tests folders contains test for this project(pytest or unitest).Note it is plural as singular will override python test 
 
 ### Lis of Projects created with this template 
 
